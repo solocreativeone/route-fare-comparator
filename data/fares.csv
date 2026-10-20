@@ -1,0 +1,4 @@
+origin,destination,mode,min_fare,max_fare,duration_min,source,date_collected
+Central Market,University Gate,Bus,300,500,35,ILLUSTRATIVE SAMPLE - replace before demo,2026-10-20
+Central Market,University Gate,Keke,500,800,25,ILLUSTRATIVE SAMPLE - replace before demo,2026-10-20
+Central Market,University Gate,Taxi,1200,1800,20,ILLUSTRATIVE SAMPLE - replace before demo,2026-10-20
