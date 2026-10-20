@@ -208,7 +208,7 @@ Then open a **Pull Request** on GitHub targeting `main`. Describe what changed a
 
 ## Five-day build plan
 
-### Day 1 — Setup and data contract
+### Day 1 - Setup and data contract
 - Team Lead creates repository, invites collaborators and sets up task board.
 - Everyone agrees on route naming and CSV columns.
 - Data collectors identify sources and begin collecting.
@@ -217,7 +217,7 @@ Then open a **Pull Request** on GitHub targeting `main`. Describe what changed a
 
 **Day 1 exit check:** everyone can run the app; data columns and ownership are agreed.
 
-### Day 2 — Data and core logic
+### Day 2 - Data and core logic
 - Collectors gather fares and record sources/dates.
 - Data Lead normalizes and validates records.
 - Logic Developer implements and tests route filtering and fare calculations.
@@ -225,7 +225,7 @@ Then open a **Pull Request** on GitHub targeting `main`. Describe what changed a
 
 **Day 2 exit check:** calculator tests pass and the app can show a route using team data.
 
-### Day 3 — Integration
+### Day 3 - Integration
 - Merge reviewed pull requests.
 - Connect UI to the cleaned dataset and calculation functions.
 - Test empty routes, reversed routes, missing data and invalid fare ranges.
@@ -233,7 +233,7 @@ Then open a **Pull Request** on GitHub targeting `main`. Describe what changed a
 
 **Day 3 exit check:** one end-to-end route comparison works from the UI.
 
-### Day 4 — QA and deployment
+### Day 4 - QA and deployment
 - Run tests and verify calculations manually against a few examples.
 - Check data source labels and collection dates.
 - Deploy to Streamlit Community Cloud or another agreed host.
@@ -241,7 +241,7 @@ Then open a **Pull Request** on GitHub targeting `main`. Describe what changed a
 
 **Day 4 exit check:** deployed app opens and core flow works.
 
-### Day 5 — Freeze and present
+### Day 5 - Freeze and present
 - Avoid large new features.
 - Re-test the deployed version.
 - Prepare slides, limitations, data methodology and demo route.
